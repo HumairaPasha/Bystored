@@ -1,0 +1,92 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Suite1">
+
+
+    <test name = "test1">
+        <classes>
+            <class name="Testcases.Wizard">
+                <methods>
+                    <include name="bookStorageUnit" ></include>
+                    <include name="logInExistingUser"></include>
+                    <include name="enterManualAddress"></include>
+                    <include name="deliveriesToAreaLimited"></include>
+                    <include name="deliveriesToArea_NegativeCase"></include>
+
+
+                </methods>
+            </class>
+
+            <class name="Testcases.ContactUs">
+                <methods>
+                    <include name="contactUs" ></include>
+
+                </methods>
+            </class>
+
+            <class name="Testcases.ContactUs">
+                <methods>
+                    <include name="contactUs" ></include>
+
+                </methods>
+            </class>
+
+            <class name="Testcases.Pricing">
+                <methods>
+                    <include name="pricingTest" ></include>
+
+                </methods>
+            </class>
+
+            <class name="Testcases.StudentStorage">
+                <methods>
+                    <include name="bookStorage" ></include>
+                    <include name="studentStorage"></include>
+
+                </methods>
+            </class>
+
+            <class name="Testcases.LandingPage">
+                <methods>
+                    <include name="applyDiscountCode"></include>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
+    <!--<test name = "test3">-->
+        <!--<classes>-->
+            <!--<class name="Testcases.Pricing">-->
+                <!--<methods>-->
+                    <!--<include name="pricingTest" ></include>-->
+
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name = "test4">-->
+        <!--<classes>-->
+            <!--<class name="Testcases.StudentStorage">-->
+                <!--<methods>-->
+                    <!--<include name="bookStorage" ></include>-->
+                    <!--<include name="studentStorage"></include>-->
+
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name = "test5">-->
+        <!--<classes>-->
+            <!--<class name="Testcases.LandingPage">-->
+                <!--<methods>-->
+                    <!--<include name="applyDiscountCode"></include>-->
+
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
